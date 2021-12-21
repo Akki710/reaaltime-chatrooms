@@ -26,7 +26,7 @@ useEffect(() => {
     socket = io(url,{ transports: ['websocket'] });
     socket.emit("join", { userName,userRoom }, (error) => {
       if(error) {
-        alert(error);
+        console.log(error);
       }
     });
   }, [url,userName,userRoom]);// eslint-disable-line react-hooks/exhaustive-deps
