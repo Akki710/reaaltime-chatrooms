@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.input {
+  border: none;
+  border-radius: 54px;
+  padding: 5%;
+  width: 82%;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton{
+  border: none;
+  border-radius: 55px;
+  width: 14%;
+  background-color: #fd8508;
+  cursor: pointer;
+}
+
+.sendButton>img{
+  width: 3.2vmax;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .sendButton>img{
+    width: 4.6vmax;
+  }
+}

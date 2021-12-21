@@ -1,0 +1,121 @@
+.messageBoxforme {
+  background: #F3F3F3;
+  border-radius: 12px 1px 20px 12px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  height: 45px;
+}
+.messageBoxforuser {
+  border-radius: 0px 29px 12px 22px; 
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageBoxadmin{
+  background: #F3F3F3;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 60%;
+  font-size: smaller;
+  height: fit-content;
+}
+
+.messageTextforadmin {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  color:white;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+.messageTextforme {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  color:white;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  margin: auto;
+}
+.messageTextforuser {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  color:white;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  margin: auto;
+  margin-top: -14px;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  padding: 0 5%;
+  margin-top: 4px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #f35910;
+  letter-spacing: 0.3px;
+  margin-top: inherit;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyCenter{
+  justify-content:center;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundgray{
+  background: rgb(46 48 43);
+}
+
+.backgroundgreen {
+  background: #086c3e;
+}
+
+
+@media (min-width: 320px) and (max-width: 760px) {
+ .messageBoxadmin{
+   height: 32px;
+   font-size: x-small;
+   font-weight: bolder;
+ }
+}
