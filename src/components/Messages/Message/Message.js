@@ -22,7 +22,7 @@ const Message = ({message:{text,user}}) => {
     return(
       <div className="messageContainer justifyEnd">
       <div className="messageBoxforme backgroundgreen">
-        <p className="messageTextforme">{text}</p>
+        <p className="messageTextforme">`You: ${text}`</p>
       </div>
     </div>
     )
