@@ -23,7 +23,7 @@ const [message, setMessage] = useState('');
 const [messages, setMessages] = useState([]);
 
 useEffect(() => {
-    socket = io(url);
+    socket = io(url,{ transports: ['websocket'] });
     socket.emit("join", { userName,userRoom }, (error) => {
       if(error) {
         alert(error);
