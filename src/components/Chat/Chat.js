@@ -29,7 +29,7 @@ useEffect(() => {
         alert(error);
       }
     });
-  }, [url,userName,userRoom,error]);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [url,userName,userRoom,(error)]);// eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     socket.on("message",message => {
       setMessages(messages=>[...messages,message]);
